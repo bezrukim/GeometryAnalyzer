@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+#Model
+Code\yolov8l-seg.pt
+Code\yolov8n-seg.pt
+Code\yolov8s-seg.pt
