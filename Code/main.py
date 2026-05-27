@@ -132,6 +132,8 @@ while True:
             panel = put_text_pil(panel, f"Компактность: {compactness:.2f}", (15, y), font_size=14, color=(220,220,220))
             y += 18
             panel = put_text_pil(panel, f"Перекрытие: {gap}", (15, y), font_size=14, color=(220, 220, 220))
+            y += 18
+            panel = put_text_pil(panel, f"cx: {cx}, cy: {cy}", (15, y), font_size=14, color=(220, 220, 220))
             y += 25
 
     output = cv2.hconcat([result, panel]) #Объединие результата обработкия и панели метрик.
