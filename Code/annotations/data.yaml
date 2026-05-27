@@ -1,0 +1,5 @@
+names:
+  0: pencil
+path: .\annotations
+train: train.txt
+val: val.txt
