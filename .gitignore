@@ -180,7 +180,20 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-#Model
-Code\yolov8l-seg.pt
-Code\yolov8n-seg.pt
-Code\yolov8s-seg.pt
+# Models
+Code/yolov8l-seg.pt
+Code/yolov8n-seg.pt
+Code/yolov8s-seg.pt
+
+# Intermediate
+train.txt
+train.py
+resize.py
+makeFrame.py
+frame45.txt
+frame45.jpg
+autoscreenshot.py
+runs/
+frame/
+data/
+annotations/
